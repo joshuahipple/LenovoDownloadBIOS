@@ -4,9 +4,13 @@
 # Source:  https://github.com/hippman257/LenovoDownloadBIOS
 #
 #---------------------------------------------------------------------------
-# Script to download all BIOS updates for all Lenovo Model
+# Script to download all BIOS updates for all Lenovo Model.
 #
-# Step #1 - Creates CSV list of models.
+# Parses data that is provided from the Lenovo page:
+# "Driver & Software Matrix for IT Admins"
+# https://download.lenovo.com/cdrt/tools/drivermatrix/dm.html
+#---------------------------------------------------------------------------
+# Step #1 - Creates CSV list of models. 
 #
 # Model,Type
 # ThinkCentre M83,10AN
